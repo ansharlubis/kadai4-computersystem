@@ -7,8 +7,7 @@ main:
 
 	li $s0, 0
 	li $s1, 0
-	li $t0, 0
-	
+		
 loop:
 	jal read1bit
 	sll $s0, $s0, 1

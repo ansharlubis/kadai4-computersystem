@@ -1,6 +1,6 @@
 	.text
 main:
-	li $v0, 100
+	li $v0, 99
 	li $a0, 55
 	teq $zero, $zero
 

@@ -1,6 +1,9 @@
 	.text
 main:
-	li $t0, 5
+	li $v0, 5 
+	syscall 
+	move $t0, $v0 
+
 	addi $sp, $sp, -8
 	sw $ra, 0($sp)				# save return address
 	sw $t0, 4($sp)				# save initial n
